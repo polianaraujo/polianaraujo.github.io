@@ -8,18 +8,18 @@
         Passo 3: adicionar a classe ativo nos projetos escondidos
 */
 
-const botaoMostrarProjetos = document.querySelector('.btn-mostrar-projetos');
-const projetosInativos = document.querySelectorAll('.projeto:not(.ativo)');
+// const botaoMostrarProjetos = document.querySelector('.btn-mostrar-projetos');
+// const projetosInativos = document.querySelectorAll('.projeto:not(.ativo)');
 
-botaoMostrarProjetos.addEventListener('click', () => {
-    // Passo 3: adicionar a classe ativo nos projetos escondidos
-    projetosInativos.forEach(projetoInativo => {
-        projetoInativo.classList.add('ativo');
-    });
+// botaoMostrarProjetos.addEventListener('click', () => {
+//     // Passo 3: adicionar a classe ativo nos projetos escondidos
+//     projetosInativos.forEach(projetoInativo => {
+//         projetoInativo.classList.add('ativo');
+//     });
 
-    /*  Objetivo 2: esconder o botão de mostrar mais
+//     /*  Objetivo 2: esconder o botão de mostrar mais
 
-        Passo 1: pegar o botão e esconder ele
-    */
-    botaoMostrarProjetos.classList.add("remover");
-});
+//         Passo 1: pegar o botão e esconder ele
+//     */
+//     botaoMostrarProjetos.classList.add("remover");
+// });
