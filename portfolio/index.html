@@ -1,54 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-  <script type="module" crossorigin src="/assets/index-8lWsfWP3.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-D3rgRqJy.css">
+    <title>Poliana Ellen de Araújo - Desenvolvedora Frontend</title>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Meu Portfólio de Repositórios</h1>
-            <section id="about-me">
-                <h2>Sobre Mim</h2>
-                <p>Bem vindo! Meu nome é Poliana Ellen, uma desenvolvedora Python, com foco em Engenharia de Dados e Aprendizado de Máquina. Possuo experiência em projetos de iniciação científica na área de geofísica. Atualmente sou estagiária em Ciência de Dados na Aiyra Engenharia de Dados Este portfólio apresenta alguns dos meus projetos no GitHub, incluindo repositórios em destaque e uma visão geral dos meus outros trabalhos. Sinta-se à vontade para explorar!</p>
-            </section>
-        </header>
+    <header class="cabecalho">
+        <a href="#">
+            <h1 class="logo">PA</h1>
+        </a>
 
-        <main>
-            <section id="featured-repos">
-                <h2>Repositórios em Destaque</h2>
-                <div class="featured-grid">
-                    <div class="repo-card">
-                        <h3><a href="https://github.com/polianaraujo/time-lapse" target="_blank">Aplicação de Redes Neurais Recorrentes para Correspondência de Dados de Sísmica Time-Lapse</a></h3>
-                        <p>Este é um projeto em Python focado em RNN.</p>
-                    </div>
-                    <div class="repo-card">
-                        <h3><a href="https://github.com/polianaraujo/tarefa2" target="_blank">Análise Socioeconômica para Projeção de Alvos para Empresas</a></h3>
-                        <p>Processo de análise dados em ETL.</p>
-                    </div>
-                    <div class="repo-card">
-                        <h3><a href="https://github.com/polianaraujo/air-quality" target="_blank">Previsão de dados da qualidade do ar da cidade de Bogotá</a></h3>
-                        <p>Um estudo de caso de previsão de dados com o uso de redes neurais simples e visualizar em um mapa ao longo do tempo.</p>
-                    </div>
-                </div>
-            </section>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#projetos">meus projetos</a>
+                </li>
+            </ul>
+        </nav> 
+    </header>
+    <section class="home">
+        <div class="informacoes">
+            <h1>Olá, eu sou Poliana Araújo</h1>
+            <p>Sou uma Desenvolvedora Front-End com grande perfeccionismo visual, que sempre gostou de brincar com programas do computador e que possui um grande entusiasmo por Inteligência Artificial</p>
+            
+            <p>Bacharel em Ciência e Tecnologia e atualmente estudante de graduação em Engenharia de Computação na UFRN</p>
+            
+            <p>Nas horas livres gosto de fazer algumas artes digitais no Inkscape</p>
 
-            <section id="all-repos-section">
-                <h2>Todos os meus Repositórios</h2>
-                <div id="repo-list">
-                    <p id="feedback">Carregando...</p>
-                </div>
-                
-                <div id="pagination-controls">
-                    <button id="prev-button" disabled>Anterior</button>
-                    <button id="next-button" disabled>Próximo</button>
-                </div>
-            </section>
-        </main>
-    </div>
+            <ul class="redes-sociais">
+                <li>
+                    <a href="https://br.linkedin.com/in/poliana-ellen-de-ara%C3%BAjo-06695b2a6" title="Ir para o LinkedIn" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/polianaraujo" title="Ver o meu Github" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.intagram.com/polianaraujo__" title="Ver o meu Instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container-foto">
+            <div class="foto sombra-interna">
+                <img src="./src/imagens/foto-perfil.png" alt="Foto de perfil de Poliana">
+            </div>
+        </div>
+    </section>
+    <section class="projetos" id="projetos">
+        <h2 class="titulo">meus projetos</h2>
+
+        <div class="container-projetos">
+
+            <div class="projeto ativo">
+                <a href="#" target="_blank">
+                    <img src="./src/imagens/projeto-gta.png" alt="Projeto Landing page GTA">
+                    <h3>Projeto 1</h3>
+
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTLM, CSS e JavaScript</p>
+                        <p>Ver no GitHub pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto ativo">
+                <a href="#" target="_blank">
+                    <img src="./src/imagens/projeto-gta.png" alt="Projeto Landing page GTA">
+                    <h3>Projeto 1</h3>
+
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTLM, CSS e JavaScript</p>
+                        <p>Ver no GitHub pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto ativo">
+                <a href="#" target="_blank">
+                    <img src="./src/imagens/projeto-gta.png" alt="Projeto Landing page GTA">
+                    <h3>Projeto 1</h3>
+
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTLM, CSS e JavaScript</p>
+                        <p>Ver no GitHub pages</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <button class="btn-mostrar-projetos">Mostrar mais<button>
+    </section>
+
+    <script src="./src/js/index.js"></script>
 
 </body>
 </html>
